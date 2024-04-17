@@ -1,18 +1,18 @@
 numero = int(input('digite um numero: '))
 
-for indice in range(0, 10):
-    print('Tabuada de multiplicação:')
+print('Tabuada de multiplicação:')
+for indice in range(0, 11):
     print(f'{numero} x {indice} = {numero * indice}')
 
-for indice in range(0, 10):
-    print('Tabuada de subtração:')
+print('Tabuada de subtração:')
+for indice in range(0, 11):
     print(f'{numero} - {indice} = {numero - indice}')
 
-for indice in range(0, 10):
-    print('Tabuada de soma:')
+print('Tabuada de soma:')
+for indice in range(0, 11):
     print(f'{numero} + {indice} = {numero + indice}')
 
-for indice in range(0, 10):
-    print('Tabuada de divisao:')
+print('Tabuada de divisao:')
+for indice in range(1, 11):
     print(f'{numero} / {indice} = {numero / indice}')
 
